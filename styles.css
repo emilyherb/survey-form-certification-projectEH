@@ -1,0 +1,88 @@
+h1{
+    text-align:center;
+    font-family:"Playfair Display";
+    font-style:italic;
+    font-weight:normal;
+    letter-spacing:4px;
+    margin-bottom: 0;
+  }
+  body{
+    background-color:#FBF6ED;
+    margin:5%;
+  }
+  .subheading{
+    font-family:"Jost";
+    font-weight:medium;
+    margin-top:0;
+  }
+  #description{
+    font-family:"Jost";
+    text-align:center;
+    margin-top: 0;
+    margin-bottom:0;
+  }
+  main{
+    background-color:E6CCBF;
+    border-radius:3%;
+    margin:5%;
+    padding-bottom:8%;
+    border:solid 1px;
+    margin-top:2%;
+  }
+  .question, textarea{
+    font-family:inter;
+    font-size:90%;
+  }
+  label{
+    font-family:inter;
+    font-size:85%;
+  }
+  fieldset{
+    border:0;
+    margin:5%;
+  }
+  input[type="text"], input[type="email"], input[type="number"], #dropdown{
+    width:90%;
+    margin: 1% 0 1% 0;
+    height:4%;
+    border:0;
+  }
+  #submit{
+    float:right;
+    border-radius:22%;
+    border:0;
+    padding:1.5%;
+    margin-right:8%;
+    background-color:#807C73;
+    color:#ffffff;
+  }
+  #personal-details{
+  padding-top:3%;
+  padding-bottom:0;
+  margin-bottom:0;
+  }
+  #hair-details{
+  padding-top:0;
+  margin-top:2%;
+  }
+  hr{
+    color:#807C73;
+    width:90%;
+    border:solid 1px;
+  }
+  #dropdown{
+    color:#807C73;
+    margin-bottom:0;
+  }
+  textarea{
+    margin-top:2%;
+  }
+  input[type="radio"]{
+    accent-color:black;
+  }
+  input[type="checkbox"]{
+    accent-color:white;
+  }
+  select:after{
+  background-color:white;
+  }

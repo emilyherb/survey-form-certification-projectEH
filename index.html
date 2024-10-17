@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+
+<h1 id="title">Hair Survey</h1>
+<p id="description">TO COLLECT HAIR HISTORY OF NEW GUESTS</p>
+<main>
+<form method="post" id="survey-form">
+
+  <fieldset id="personal-details" class ="container">
+    <p class="subheading">PERSONAL DETAILS</p>
+    <label id="name-label" for="name">name<br/>
+<input placeholder="please enter your name..."id="name" type="text" required/></label>
+<br/>
+<label id="email-label" for="email">email<br/>
+<input placeholder="please enter your email..." id="email" type="email" required/></label>
+<br/>
+<label id="number-label" for="number">age<br/>
+<input placeholder="please enter your age..."id="number" type="number" min="10" max="100" required/></label>
+</fieldset>
+<hr/>
+<fieldset 
+id="hair-details" class="container">
+  <p class="subheading">HAIR DETAILS</p>
+
+  <p class="question">hair density</p>
+ <input type="radio" value="thin" id="thin-density" name="density"short-length" checked> <label for="thin-density">thin</label>
+<input type="radio" value="medium" id="medium-density" name="density" value="medium-density">
+<label for="medium-density"> medium</label>
+<input type="radio" value="thick" id="thick-density" name="density" value="thick-density">
+<label for="below-shoulders"> thick</label> 
+</br>
+
+<p class="question">hair length</p>
+ <input type="radio" id="short-length" name="length" value="short" checked>
+<label for="short-length">above ears</label>
+<input type="radio" id="medium-length" name="length" value="medium-length">
+<label for="medium-length">shoulder length</label>
+<input type="radio" id="below-shoulders" name="length" value="below-shoulders">
+<label for="below-shoulders">below shoulders</label> 
+  <br/>
+
+  <p class="question">do any of the following apply to you?</p>
+  <div id="check">
+<label for="concerns"><input value="greys" name="concerns" type="checkbox"/> grey hair</label>
+<label for="concerns"><input value="boxdye" name="concerns" type="checkbox"/> previous box color</label>
+<label for="concerns"><input value="uneven" name="concerns" type="checkbox"/> uneven color</label><br/>
+<label for="concerns"><input value="breakage" name="concerns" type="checkbox"/> breakage</label>
+<label for="concerns"><input value="scalp" name="concerns" type="checkbox"/> dry or oily scalp</label>
+<label for="concerns"><input value="thinning" name="concerns" type="checkbox"/> thinning</label>
+</div>
+
+  <br/>
+  <label for="service">Which service would you like to schedule?<br/><select id="dropdown">
+<option value="">please select a service...</option>
+            <option value="1">root or all over color</option>
+            <option value="2">on the scalp blonding / platinum card</option>
+            <option value="3">highlights or balayage</option>
+            <option value="4">vivid color transformation</option>
+            <option value="5">corrective color</option>
+    </select>
+  </label>
+  </fieldset>
+<hr/>
+  <fieldset id="comments" class="container">
+<label id="commentbox" for="comments">anything else you'd like us to know?<br/>
+          <textarea id="comments" name="bio" rows="4" cols="55" placeholder="allergies, how you typically wear your hair, etc..."></textarea>
+        </label>
+    </fieldset>
+    <input id="submit" type="submit" value="submit"/>
+</form>
+</main>
+    </body>
+    <footer></footer>
+    </html>
