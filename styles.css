@@ -22,10 +22,10 @@ h1{
     margin-bottom:0;
   }
   main{
-    background-color:E6CCBF;
+    background-color:#E6CCBF;
     border-radius:3%;
     margin:5%;
-    padding-bottom:8%;
+    padding-bottom:10%;
     border:solid 1px;
     margin-top:2%;
   }
@@ -42,19 +42,23 @@ h1{
     margin:5%;
   }
   input[type="text"], input[type="email"], input[type="number"], #dropdown{
-    width:90%;
+    width:95%;
     margin: 1% 0 1% 0;
     height:4%;
     border:0;
   }
   #submit{
     float:right;
-    border-radius:22%;
+    border-radius:18px;
+    height:5%;
+    width:18%;
     border:0;
     padding:1.5%;
-    margin-right:8%;
+    margin-right:10%;
     background-color:#807C73;
     color:#ffffff;
+    font-family:jost;
+    letter-spacing:1.5px;
   }
   #personal-details{
   padding-top:3%;
@@ -76,6 +80,7 @@ h1{
   }
   textarea{
     margin-top:2%;
+    width:95%;
   }
   input[type="radio"]{
     accent-color:black;
