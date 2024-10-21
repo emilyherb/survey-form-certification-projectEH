@@ -8,6 +8,7 @@ h1{
   }
   body{
     background-color:#FBF6ED;
+    max-width:600px;
     margin:5%;
   }
   .subheading{
