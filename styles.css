@@ -10,12 +10,16 @@ h1{
     background-color:#FBF6ED;
     max-width:600px;
     margin:auto;
-    margin:5%;
   }
   .subheading{
     font-family:"Jost";
     font-weight:medium;
     margin-top:0;
+  }
+  .subheading2{
+    font-family:"Jost";
+    font-weight:medium;
+    margin-top:2%;
   }
   #description{
     font-family:"Jost";
@@ -48,6 +52,7 @@ h1{
     margin: 1% 0 1% 0;
     height:5%;
     border:0;
+    padding:1%;
   }
   #submit{
     float:right;
@@ -84,6 +89,7 @@ h1{
   }
   textarea{
     margin-top:2%;
+    padding:1%;
     width:95%;
   }
   input[type="radio"]{
